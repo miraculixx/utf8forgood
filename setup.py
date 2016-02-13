@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name="utf8forgood",
-    version="0.1",
+    version="0.1.3",
     include_package_data=True,
     zip_safe=False,
     author='miraculixx',

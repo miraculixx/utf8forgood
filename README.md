@@ -1,4 +1,7 @@
-Tired of Python's UnicodeDeocodeError, ascii codec can't decode?
+utf8forgood
+-----------
+
+**Tired of Python's `UnicodeDeocodeError, ascii codec can't decode?`**
 
 Here's how to fix it, once and for all.
 
@@ -10,10 +13,10 @@ Here's how to fix it, once and for all.
     ```
 If you like it, make the change permanent in your sitecustomize.py:
 
-```
-# /path/to/site-packages/sitecustomize.py
-import utf8forgood
-```
+    ```
+    # /path/to/site-packages/sitecustomize.py
+    import utf8forgood
+    ```
 
 To find the path to `sitecustomize.py`, run `python -m site` or read up on
 the [site-specific configuration hook][8].
